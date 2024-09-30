@@ -4,7 +4,7 @@ public class Journal
     public List<Entry> _entries = new List<Entry>();
     public PromptGenerator _prompts = new PromptGenerator();
 
-
+    
     //Preparing values for variables that are defined in Entry.cs to be added to other compiled Entries, then adding them
     public void CreateNewEntry() //(Entry newEntry)
     {
