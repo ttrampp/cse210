@@ -5,8 +5,13 @@ public class PromptGenerator
 
     //creates a list of propmts
     public List<string> _prompts = new List<string>(){
-        "What is your Happy Thought for today? ",
-        "One word describing today? "
+        "My Happy Thought for today is... ",
+        "One word describing today would be... ",
+        "One thing I would like to change about today is... ",
+        "The best thing about today was... ",
+        "One thing that helped strengthen my testimony today was...",
+        "One thing I learned today was... "
+
     };
 
     //Returning a random prompt from list above and not just the same one each time
