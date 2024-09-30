@@ -39,7 +39,7 @@ public class Journal
         }
     }
 
-    //Method to update entries, ensuring there are not duplicates and there are clear seperaters between lines/parts of info
+    //loading up saved file to display when prompted. Method to update entries, ensuring there are not duplicates and there are clear seperaters between lines/parts of info
     public void LoadFromFile(string filename)
     {
         _entries.Clear();
