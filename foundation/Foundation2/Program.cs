@@ -14,6 +14,7 @@ class Program
         Product product1 = new Product("50 Gallon Barrel", 63284, 49.99, 20);
         Product product2 = new Product("Spade shovel", 62844, 24.59, 4);
         Product product3 = new Product("40lbs Swine Feed", 99258, 26.74, 2);
+        Product product4 = new Product("40lbs Chicken Feed", 99258, 22.95, 2);
 
 
         Order order1 = new Order(customer1);
@@ -22,6 +23,8 @@ class Program
 
         Order order2 = new Order(customer2);
         order2.AddProduct(product2);
+        order2.AddProduct(product3);
+        order2.AddProduct(product4);
 
         Console.WriteLine("***************************************************************");
         Console.ForegroundColor = ConsoleColor.Green;
