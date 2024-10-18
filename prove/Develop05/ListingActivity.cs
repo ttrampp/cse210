@@ -18,8 +18,6 @@ class ListingActivity : Activity
         };
 
         _itemsListed = new List<string>();
-
-
     }
 
     private string GetRandomPrompt()
