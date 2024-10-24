@@ -1,9 +1,23 @@
+//Core requirements met
+//Additional Exceeding requirements added throughout the code
+//Exceeding requirements include:
+//--BONUS POINTS
+//--COLOR FEATURES FOR USER FRIENDLY EASE, 
+//==ACHIEVEMENT TRACKING AND REWARDING, INCLUDING AN ON GOING REWARD SYSTEM FOR EVERY 500 POINTS EARNED.
+
+
 using System;
 
-class Program
+namespace eternalQuest
 {
-    static void Main(string[] args)
+
+    class Program
     {
-        Console.WriteLine("Hello Develop06 World!");
+        static void Main(string[] args)
+        {
+            GoalManager goalManager = new GoalManager();
+
+            goalManager.Start();
+        }
     }
 }
