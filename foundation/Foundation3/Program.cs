@@ -1,9 +1,23 @@
 using System;
+using System.Collections.Generic;
 
-class Program
+namespace exerciseActivities
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Foundation3 World!");
+        static void Main(string[] args)
+        {
+            List<Activity> activities = new List<Activity>
+            {
+                new Running(30, 3),
+                new StationaryBicycles(30, 15.0),
+                new SwimmingLapPool(30, 20)
+            };
+
+            foreach (var activity in activities)
+            {
+                Console.WriteLine(activity.GetSummary());
+            }
+        }
     }
 }
